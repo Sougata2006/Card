@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    border-radius: 7.5px;
+    height: 550px;
+    width: 350px;
+    align-items: center;
+}
+
+.image{
+    padding: 10px;
+}
+
+.image img{
+    width: 330px;
+    border-radius: 7.5px;
+}
+
+.container h2{
+    padding: 10px;
+}
+
+.para{
+    padding-top: 25px;
+    padding: 10px;
+}
+
+.para p{
+    color: gray;
+}
+
+.capsuls{
+    padding: 10px;
+}
+
+.capsuls span{
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 3px 5px;
+    margin-right: 3px;
+}
+
+.read{
+    background-color: rgb(194, 208, 254);
+    border: 1px;
+    border-radius: 15px;
+    width: 90px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px 7px;
+}
+
+.read:hover{
+    background-color: rgb(118, 178, 238);
+}
+
+.read a{
+    text-decoration: none;
+    color: rgb(41, 138, 180);
+}
+
+.read a:hover{
+    color: rgb(29, 32, 111);
+}
